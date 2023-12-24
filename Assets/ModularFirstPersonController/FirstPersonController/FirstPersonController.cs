@@ -191,7 +191,7 @@ public class FirstPersonController : MonoBehaviour
             }
         }
         else
-        
+
         {
             sprintBarBG.gameObject.SetActive(false);
             sprintBar.gameObject.SetActive(false);
@@ -328,7 +328,7 @@ public class FirstPersonController : MonoBehaviour
         #region Jump
 
         // Gets input and calls jump method
-        while(enableJump && Input.GetKeyDown(jumpKey) && isGrounded)
+        while(enableJump && Input.GetKey(jumpKey) && isGrounded)
         {
             Jump();
         }
