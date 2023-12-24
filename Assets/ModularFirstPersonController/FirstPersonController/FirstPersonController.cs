@@ -191,6 +191,7 @@ public class FirstPersonController : MonoBehaviour
             }
         }
         else
+        
         {
             sprintBarBG.gameObject.SetActive(false);
             sprintBar.gameObject.SetActive(false);
